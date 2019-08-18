@@ -1,0 +1,9 @@
+[package]
+name = "trnslt"
+version = "0.1.0"
+authors = ["cyclowns <cyclowns@protonmail.ch>"]
+edition = "2018"
+
+[dependencies]
+clap = "~2.33.0"
+curl = "0.4.22"
