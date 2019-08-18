@@ -2,11 +2,41 @@
 
 `trnslt` is a Rust CLI app that translates strings from one language to another using Google Translate.
 
-## Usage
+## Installation / Usage
+
+To install `trnslt` on Linux, you need `rustc` and `cargo` installed. Clone this repository, then run `cargo build --release`. An executable will appear at `(cloned_repo)/target/release/trnslt`. You can move this to `/usr/bin` or wherever else is covered by your PATH.
+
+On Windows, do the same steps but move the executable to somewhere covered by your PATH, or move it to some location and add that location to your PATH.
+
+Actual binary distributions coming soon(?)
+
+```
+trnslt 1.0.2 
+cyclowns <cyclowns@protonmail.ch>
+CLI Google Translate app written in Rust
+
+USAGE:
+    trnslt [OPTIONS] <INPUT> --outlang <OUTLANG>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -i, --inlang <INLANG>      Input language for your translation, i.e. en, es, cn. Leave blank for auto-translation.
+                               Full list on github.com/cyclowns/trnslt or in README.md.
+    -o, --outlang <OUTLANG>    Output language for your translation.
+
+ARGS:
+    <INPUT>    Input string to translate from INLANG to OUTLANG.
+```
 
 ## Example
 
-
+```bash
+trnslt -i tr -o is "Olmak ya da olmamak" # To be or not to be--from turkish to icelandic
+    > "Að vera eða ekki vera"
+```
 
 ## All Language Keys
 

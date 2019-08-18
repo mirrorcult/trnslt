@@ -20,7 +20,7 @@ fn main() {
     let start = Instant::now();
 
     let matches = clap_app!(trnslt =>
-        (version: "0.1.0")
+        (version: "1.0.2")
         (author: "cyclowns <cyclowns@protonmail.ch>")
         (about: "CLI Google Translate app written in Rust")
         (@arg INLANG: +takes_value -i --inlang "Input language for your translation, i.e. en, es, cn. Leave blank for auto-translation. Full list on github.com/cyclowns/trnslt or in README.md.")
