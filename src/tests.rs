@@ -9,15 +9,15 @@ fn test_translation() {
         "Ser o no ser"
     );
 
-    // Spanish -> arabic
+    // Spanish -> turkish
     assert_eq!(
-        translate("Ser o no ser", "es", "ar"),
-        "أن تكون أو لا تكون"
+        translate("Ser o no ser", "es", "tr"),
+        "Olmak ya da olmamak"
     );
 
     // Arabic -> icelandic
     assert_eq!(
-        translate("أن تكون أو لا تكون", "ar", "is"),
+        translate("Olmak ya da olmamak", "tr", "is"),
         "Að vera eða ekki vera"
     )
 }
