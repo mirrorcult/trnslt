@@ -1,8 +1,14 @@
 # trnslt
 
-`trnslt` is a Rust CLI app that translates strings from one language to another using Google Translate
+`trnslt` is a Rust CLI app that translates strings from one language to another using Google Translate.
 
-## Language Keys
+## Usage
+
+## Example
+
+
+
+## All Language Keys
 
 Here is a list of all valid language keys. If the input language is unknown, simply leave it blank and `trnslt` will auto-detect what language it is.
 
@@ -73,5 +79,3 @@ vi  Vietnamese
 cy  Welsh
 yi  Yiddish
 ```
-
-## Usage

@@ -1,10 +1,10 @@
 [package]
 name = "trnslt"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["cyclowns <cyclowns@protonmail.ch>"]
 edition = "2018"
 
 [dependencies]
 serde_json = "1.0"
-clap = "~2.33.0"
+clap = "2.33.0"
 curl = "0.4.22"

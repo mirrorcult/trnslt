@@ -197,7 +197,7 @@ dependencies = [
 
 [[package]]
 name = "trnslt"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "clap 2.33.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "curl 0.4.22 (registry+https://github.com/rust-lang/crates.io-index)",

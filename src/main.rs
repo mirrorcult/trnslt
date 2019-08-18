@@ -45,7 +45,9 @@ fn main() {
 
 /// Translates the input string `input` from `inlang` to `outlang`.
 fn translate(input: &str, inlang: &str, outlang: &str) -> String {
-    let curl_str = &format!("{}{}&tl={}&dt=t&q={}", TRANSLATE_URL, inlang, outlang, input);
+    // replace spaces with %20
+    let input_url = input.replace(" ", "%20");
+    let curl_str = &format!("{}{}&tl={}&dt=t&q={}", TRANSLATE_URL, inlang, outlang, input_url);
 
     let mut easy = Easy::new();
     easy.url(curl_str).unwrap();
