@@ -1,4 +1,6 @@
-# trnslt
+<img src="https://i.imgur.com/YoSd5SR.png" height=200>
+
+![Build Status](https://travis-ci.org/cyclowns/trnslt.svg?branch=master) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 `trnslt` is a Rust CLI app that translates strings from one language to another using Google Translate.
 
@@ -40,7 +42,9 @@ trnslt -i tr -o is "Olmak ya da olmamak" # To be or not to be--from turkish to i
 
 ## All Language Keys
 
-Here is a list of all valid language keys. If the input language is unknown, simply leave it blank and `trnslt` will auto-detect what language it is.
+Here is a list of all valid language keys. If the input language is unknown, simply leave it blank and `trnslt` will auto-detect what language it is. I haven't guaranteed that all of these work, but if one doesn't, either make a PR to remove it or msg me on Discord at `cyclowns#1440` and I'll remove it and add a disclaimer.
+
+Disclaimer: Some non-ascii languages are kinda iffy. Arabic in particular, since it's got some weird writing shenanigans going on that I don't understand.
 
 ```
 af  Afrikaans
